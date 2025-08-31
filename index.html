@@ -4,53 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Healthcare System Web Application</title>
-    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body>
-    <div class="min-h-screen bg-slate-50 flex items-center justify-center">
-      <div class="text-center">
-        <h1 class="text-4xl font-bold text-blue-600 mb-4">
-          🏥 Healthcare System
-        </h1>
-        <p class="text-xl text-gray-600 mb-6">
-          Welcome to the Healthcare Management System
-        </p>
-        <div class="bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto">
-          <h2 class="text-2xl font-semibold text-gray-800 mb-4">
-            System Status
-          </h2>
-          <div class="space-y-3">
-            <div class="flex items-center justify-between">
-              <span>Patient Management:</span>
-              <span class="text-green-600">✅ Active</span>
-            </div>
-            <div class="flex items-center justify-between">
-              <span>Appointment Booking:</span>
-              <span class="text-green-600">✅ Active</span>
-            </div>
-            <div class="flex items-center justify-between">
-              <span>Medical Records:</span>
-              <span class="text-green-600">✅ Active</span>
-            </div>
-            <div class="flex items-center justify-between">
-              <span>Admin Panel:</span>
-              <span class="text-green-600">✅ Active</span>
-            </div>
-          </div>
-          <div class="mt-6 p-4 bg-blue-50 rounded-lg">
-            <p class="text-sm text-blue-800">
-              <strong>Deployment Status:</strong> Successfully deployed to GitHub Pages!
-            </p>
-          </div>
-          <div class="mt-4 p-4 bg-green-50 rounded-lg">
-            <p class="text-sm text-green-800">
-              <strong>Next Steps:</strong> The React application will be deployed once the build issues are resolved.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
   
