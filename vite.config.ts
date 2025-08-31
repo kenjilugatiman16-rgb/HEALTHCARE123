@@ -9,11 +9,6 @@
   build: {
     target: 'esnext',
     outDir: 'dist',
-    rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, 'index.html'),
-      },
-    },
   },
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
