@@ -97,14 +97,8 @@ If you prefer manual deployment:
 
 2. **Deploy to GitHub Pages**
    - Go to repository **Settings** → **Pages**
-   - Select **Deploy from a branch**
-   - Choose `gh-pages` branch and `/ (root)` folder
-   - Click **Save**
-
-3. **Push to gh-pages branch**
-   ```bash
-   npm run deploy
-   ```
+   - Select **GitHub Actions** as the source
+   - The deployment will happen automatically on every push to `main` branch
 
 ### Other Deployment Options
 
@@ -182,6 +176,8 @@ If you encounter any issues or have questions:
 3. Contact the maintainers
 
 ## 🚀 Quick Deploy
+
+**Current Status**: The application is configured to deploy automatically via GitHub Actions. Each push to the `main` branch triggers a new deployment.
 
 To get this running quickly:
 
