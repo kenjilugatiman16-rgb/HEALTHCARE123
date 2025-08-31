@@ -177,7 +177,7 @@ If you encounter any issues or have questions:
 
 ## 🚀 Quick Deploy
 
-**Current Status**: The application is configured to deploy automatically via GitHub Actions. Each push to the `main` branch triggers a new deployment. Last updated: $(Get-Date)
+**Current Status**: The application is configured to deploy automatically via GitHub Actions. Each push to the `main` branch triggers a new deployment. Last updated: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
 
 To get this running quickly:
 
