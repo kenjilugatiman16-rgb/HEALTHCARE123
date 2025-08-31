@@ -5,7 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: process.env.NODE_ENV === 'production' ? '/HEALTHCARE123/' : '/',
+    base: '/HEALTHCARE123/',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
