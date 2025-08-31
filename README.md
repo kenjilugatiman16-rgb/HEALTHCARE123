@@ -97,8 +97,10 @@ If you prefer manual deployment:
 
 2. **Deploy to GitHub Pages**
    - Go to repository **Settings** → **Pages**
-   - Select **GitHub Actions** as the source
-   - The deployment will happen automatically on every push to `main` branch
+   - Select **Deploy from a branch**
+   - Choose `gh-pages` branch and `/ (root)` folder
+   - Click **Save**
+   - Or run the deployment script: `./deploy.bat` (Windows) or `./deploy.ps1` (PowerShell)
 
 ### Other Deployment Options
 
