@@ -177,7 +177,7 @@ If you encounter any issues or have questions:
 
 ## 🚀 Quick Deploy
 
-**Current Status**: The application is configured to deploy automatically via GitHub Actions. Each push to the `main` branch triggers a new deployment.
+**Current Status**: The application is configured to deploy automatically via GitHub Actions. Each push to the `main` branch triggers a new deployment. Last updated: $(Get-Date)
 
 To get this running quickly:
 
