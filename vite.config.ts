@@ -4,8 +4,17 @@
   import path from 'path';
 
   export default defineConfig({
-    plugins: [react()],
-    base: '/HEALTHCARE123/',
+  plugins: [react()],
+  base: '/HEALTHCARE123/',
+  build: {
+    target: 'esnext',
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, 'index.html'),
+      },
+    },
+  },
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
@@ -50,10 +59,6 @@
         '@radix-ui/react-alert-dialog@1.1.6': '@radix-ui/react-alert-dialog',
         '@radix-ui/react-accordion@1.2.3': '@radix-ui/react-accordion',
       },
-    },
-    build: {
-      target: 'esnext',
-      outDir: 'dist',
     },
     server: {
       port: 3000,
